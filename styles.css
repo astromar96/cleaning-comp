@@ -653,6 +653,14 @@ select:focus-visible {
   font-size: 1rem;
   font-weight: 500;
   color: var(--ink);
+  text-align: right;
+  direction: rtl;
+}
+
+.contact-card input[type="email"],
+.contact-card input[type="tel"] {
+  direction: ltr;
+  text-align: right;
 }
 
 .contact-card input::placeholder,
